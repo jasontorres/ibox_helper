@@ -1,0 +1,37 @@
+Ibox
+====
+
+A simple iBox Helper see http://gamma.ibegin.com/ibox/
+
+Current iBox Version: 2.0.0
+
+Example
+=======
+
+On your layout file just add this before the <head> tag closes.
+
+<%= ibox_head %>
+
+To Skin your ibox, yes it's skinnable edit public/ibox/skinname/skinname.css to your liking and place this on your environment file.
+
+# put this on your environment.rb file
+IBOX_SKIN = :darkbox
+
+Syntax is similar to the current rails link_to helper except that it accepts another Hash on the end wherein you place your ibox attributes like width, height, target and others. I suggest that you look up the iBox documentation for more info.
+
+# this creates a usual ibox link from a url
+= link_to_ibox "Name", some_path
+
+# this creates an automatic ibox link an image
+= link_to_ibox image_tag('your_image.png'), some_path
+
+# this creates an ibox link for an internal element (id), currently supports '#' selector at the moment
+= link_to_ibox "From an Internal Element", "#internal_div"
+ 
+# this creates an ibox link with a 300 height and 250 width in pixels
+= link_to_ibox "Name", some_path, {}, {:height => '300', :width => '250'} 
+
+
+TODO:
+
+- upgrade to the latest ibox

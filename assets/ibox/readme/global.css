@@ -1,0 +1,69 @@
+body { padding: 20px; font-size: 12px; color: #333; padding: 0; background: #B1C5D9; line-height: 18px; } 
+body, h1, h2, p, a {  font-family: Verdana, Arial, Helvetica, sans-serif; }
+#header { margin: 0 0 20px 0; padding: 20px 0; border-bottom: 1px dotted #000; }
+#header h1 { margin: 0; font-size: 36px; }
+#header h4 { margin: 5px 0 0 0; }
+#header h4 a { font-weight: bold; text-decoration: none; }
+h1, h2, h3, h4, h5, h6 { font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; font-weight: normal; } 
+h1, h2, h3 { color: #0075D9; letter-spacing: -0.05em; }
+h1 span { color: red; }
+h3 { color: red; font-size: 18px; }
+h2 { border-bottom: 1px solid #8dd6e2; padding-bottom: 2px; margin-top: 30px; }
+a { color: #0075D9; }
+a.x:hover{ background: #0075d9; color: white; text-decoration: none; }
+a.x { text-decoration: none; }
+a img { border: 0; }
+blockquote { border: 1px dotted #fff; padding: 5px;  }
+h2 span {
+    float: right;
+    font-size: 11px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: bold;
+}
+pre {
+    white-space: pre-wrap;       /* CSS-3                  */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999    */
+    white-space: -pre-wrap;      /* Opera 4-6              */
+    white-space: -o-pre-wrap;    /* Opera 7                */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+pre { padding: 10px; }
+code { padding: 1px 3px; }
+code, pre { color: #555; background: #eee; }
+#top {
+    width:788px;
+    margin: 0 auto;
+    border: 20px solid #DEE6EE;
+    border-width: 25px 0;
+    padding: 15px;
+    position: relative;
+    color:#333;
+    background:#fff;
+}
+.thumb img { padding: 5px; background: #eee; border: 1px solid #aaa; }
+.thumb:hover img { border-color: #777; }
+#toc { float: right; color: #333; width: 250px; margin: 0 0 10px 10px; background: #CCEAFF; padding: 0 10px; }
+#toc h2 { margin-top: 18px; color: #336699; border: 0; margin: 10px 0 5px 0; }
+#toc a { color: #336699; }
+.hastoc { margin-right: 280px; }
+.b { font-weight: bold; }
+.doc { list-style-type: none; padding-left: 0; margin-left: 0; }
+.doc li { margin: 10px; }
+.message {
+    position:relative;
+    background:#69B0EB url('images/message-top.gif') no-repeat 0 0;
+    color:#FFFFFF;
+    font-size:1.3em;
+    margin:20px auto;
+    width:788px;
+}
+.message p {
+    background:transparent url('images/message-bottom.gif') no-repeat 0 100%;
+    margin:0;
+    padding:20px;
+}
+.container { color: #333333;  font: 1em "Trebuchet MS", sans-serif; line-height: 1.6em; padding: 15px; width: 900px; border-right: 1px black solid; background: white; height: 100%; border-bottom: 1px black solid; padding-bottom: 50px;}
+td { font-size: 11px; line-height: 1.65em; }
+td strong { font-size: 13px; }
+td h2 { padding-bottom: 10px; }
